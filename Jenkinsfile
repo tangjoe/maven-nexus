@@ -10,7 +10,7 @@ pipeline {
         NEXUS_PROTOCOL = "http"
         NEXUS_URL = "nexus:8081/nexus"
         NEXUS_REPOSITORY = "maven-private-repo"
-        NEXUS_CREDENTIAL_ID = "nexus-user-credentials"
+        NEXUS_CREDENTIAL_ID = "maven-login-on-nexus"
     }
 
     tools {
